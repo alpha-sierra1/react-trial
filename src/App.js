@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
+import About from "./components/About";
 import "./App.css";
 
 let name = "ADITI";
@@ -10,7 +11,7 @@ function App() {
     <>
       <Navbar title="TextUtils" aboutText="About TextUtils" />
       <div className="container my-3">
-        <TextForm heading="Enter the text to analyze below" />
+        <About />
       </div>
     </>
   );
